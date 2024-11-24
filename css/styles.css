@@ -748,8 +748,9 @@ background-color: #404bbf;
 
 .modal-form-box-msg {
     margin-bottom: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    
 }
+
 
 .modal-form-msg {
     width: 100%;
@@ -758,12 +759,12 @@ background-color: #404bbf;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
     outline: transparent;
     resize: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
