@@ -613,6 +613,7 @@ display: flex;
 
 .modal-btn {
     position: absolute;
+    min-width: 165px;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -637,6 +638,7 @@ display: flex;
 
 .modal-form-input:focus+.modal-form-icon {
     fill: #4d5ae5;
+   
 }
 
 .modal-btn:focus,
@@ -702,10 +704,12 @@ display: flex;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-left: 16px;
+
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 
     0 1px 3px 0 rgba(0, 0, 0, 0.12), 
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    border-color: #4D5AE5;
+
 }
 
 .modal-form-icon {
@@ -795,7 +799,7 @@ input[type="checkbox"]:checked+.modal-privacy-text .modal-form-checkbox {
 
 .btn {
     display: block;
-    min-width: 165px;
+    min-width: 169px;
     height: 56px;
     font-size: 16px;
     font-weight: 500;
