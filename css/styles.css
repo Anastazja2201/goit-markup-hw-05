@@ -533,6 +533,7 @@ display: inline-block;
 display: flex;
 justify-content: center;
     align-items: baseline;
+    gap: 24px;
  }
 
   .subscribe-text {
@@ -557,7 +558,6 @@ background: transparent;
             letter-spacing: 0.04em;
             padding-left: 16px;
             color: #ffffff;
-            margin-right: 24px;
  }
 
 
